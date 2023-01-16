@@ -1,0 +1,79 @@
+.rocketContainer {
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+  height: auto;
+  padding: 2% 3%;
+}
+
+.image {
+  width: 30%;
+}
+
+.image img {
+  width: 100%;
+  height: inherit;
+}
+
+.rocketName {
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+
+.rocketDec {
+  font-size: 1.19rem;
+}
+
+.reserve {
+  background: #007bff;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
+}
+
+.cancel {
+  background: white;
+  border-radius: 5px;
+  color: #007bff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.15rem;
+  margin-top: 0.9rem;
+  margin-left: 0.5rem;
+  box-shadow: 2px 2px 5px  #007bff;
+}
+
+.badges {
+  background: #09c59c;
+  display: inline-block;
+  border-radius: 45px;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.899rem;
+  margin: 0.4rem 0.4rem 0.4rem 1.1rem;
+}
+
+.content {
+  width: 70%;
+}
+
+@media (max-width: 800px) {
+  .rocketContainer {
+    height: auto;
+  }
+
+  .image {
+    width: 40%;
+  }
+
+  .content {
+    width: 60%;
+  }
+}

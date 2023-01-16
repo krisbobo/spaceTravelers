@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test snapshot component of Navbar should render with given state from Redux store 1`] = `
+<nav>
+  <div
+    className="logo"
+  >
+     
+    <span
+      className="icon-button"
+    >
+      <img
+        alt="logo"
+        src="logo.png"
+        style={
+          Object {
+            "height": "3.5em",
+            "width": "3.5em",
+          }
+        }
+      />
+    </span>
+    <span
+      className="nav-brand"
+    >
+      Space Travelers' Hub
+    </span>
+  </div>
+  <ul
+    className="nav-links"
+  >
+    <li>
+      <a
+        className="nav-link "
+        href="/rockets"
+        onClick={[Function]}
+      >
+        Rockets
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-link "
+        href="/dragons"
+        onClick={[Function]}
+      >
+        Dragons
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-link "
+        href="/missions"
+        onClick={[Function]}
+      >
+        Missions
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-link "
+        href="/profile"
+        onClick={[Function]}
+      >
+        My Profile
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

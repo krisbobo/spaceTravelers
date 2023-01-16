@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: rgb(240, 240, 240);
+  --secondary: rgb(217, 222, 226);
+  --font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Lato", "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.missionTable {
+  border: 1px solid var(--secondary);
+  width: 100%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--primary);
+}
+
+.MuiTableCell-root,
+.MuiTableCell-head {
+  color: rgb(30, 33, 36);
+  font-weight: 700;
+}
+
+.missionName,
+.description,
+.missionStatus {
+  border: 1px solid var(--secondary);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.statusBtnActive,
+.statusBtn {
+  font-size: 0.7em;
+  border: none;
+  background-color: rgb(97, 106, 113);
+  color: rgb(255, 255, 255);
+  border-radius: 0.5em;
+  width: 9em;
+  font-family: var(--font);
+  margin: 0.5em;
+  padding: 0.3em;
+}
+
+.statusBtnActive {
+  color: rgb(254, 254, 254);
+  background-color: rgb(37, 162, 183);
+}
+
+.membershipBtn,
+.membershipBtnExit {
+  cursor: pointer;
+  font-size: 1em;
+  border: 1px solid rgb(45, 51, 56);
+  background-color: var(--primary);
+  color: rgb(45, 51, 56);
+  border-radius: 0.2em;
+  width: 9em;
+  font-family: var(--font);
+  margin: 1em;
+  padding: 0.6em;
+}
+
+.membershipBtnExit {
+  border: 1px solid rgb(225, 52, 67);
+  background-color: rgb(254, 254, 254);
+  color: rgb(225, 52, 67);
+}
